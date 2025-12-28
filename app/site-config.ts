@@ -171,25 +171,66 @@ export const CALCULATORS = [
         keywords: ["1099", "self employment", "freelance", "quarterly tax", "SE tax"],
         featured: true,
     },
-    // Future calculators - uncomment when ready
-    // {
-    //   id: "quarterly-tax",
-    //   name: "Quarterly Tax Calculator",
-    //   shortName: "Quarterly",
-    //   description: "Estimate quarterly tax payments",
-    //   icon: Calculator,
-    //   category: "tax",
-    //   featured: false,
-    // },
-    // {
-    //   id: "compound-interest",
-    //   name: "Compound Interest Calculator",
-    //   shortName: "Compound",
-    //   description: "Calculate compound interest growth",
-    //   icon: TrendingUp,
-    //   category: "finance",
-    //   featured: false,
-    // },
+    {
+        id: "w2-vs-1099",
+        name: "W2 vs 1099 Calculator",
+        shortName: "W2 vs 1099",
+        description: "Compare W2 employee vs 1099 contractor take-home pay",
+        longDescription:
+            "Compare your take-home pay as a W2 employee vs 1099 contractor. See the tax differences and find your break-even hourly rate.",
+        icon: Calculator,
+        category: "tax",
+        keywords: ["W2", "1099", "employee vs contractor", "take home pay", "comparison"],
+        featured: true,
+    },
+    {
+        id: "quarterly-tax",
+        name: "Quarterly Tax Calculator",
+        shortName: "Quarterly Tax",
+        description: "Calculate quarterly estimated tax payments",
+        longDescription:
+            "Calculate your quarterly estimated tax payments for 2025. Never miss a deadline with payment schedule and amounts.",
+        icon: Calculator,
+        category: "tax",
+        keywords: ["quarterly tax", "estimated tax", "1040-ES", "tax deadlines"],
+        featured: true,
+    },
+    {
+        id: "paycheck",
+        name: "Paycheck Calculator",
+        shortName: "Paycheck",
+        description: "Calculate your net paycheck after taxes",
+        longDescription:
+            "Free paycheck calculator for W2 employees. See your gross pay, tax withholdings, and net take-home pay.",
+        icon: Wallet,
+        category: "salary",
+        keywords: ["paycheck", "salary", "take home pay", "net pay", "withholding"],
+        featured: false,
+    },
+    {
+        id: "hourly-rate",
+        name: "Freelance Hourly Rate Calculator",
+        shortName: "Hourly Rate",
+        description: "Calculate your freelance hourly rate",
+        longDescription:
+            "Calculate the hourly rate you need to charge as a freelancer to meet your income goals after taxes and expenses.",
+        icon: TrendingUp,
+        category: "freelance",
+        keywords: ["hourly rate", "freelance rate", "consulting rate", "billing rate"],
+        featured: false,
+    },
+    {
+        id: "llc-vs-scorp",
+        name: "LLC vs S-Corp Tax Calculator",
+        shortName: "LLC vs S-Corp",
+        description: "Compare LLC vs S-Corp tax savings",
+        longDescription:
+            "Compare tax obligations as an LLC vs S-Corporation. See potential tax savings and find the best structure for your business.",
+        icon: Home,
+        category: "business",
+        keywords: ["LLC", "S-Corp", "business structure", "tax savings", "self employment tax"],
+        featured: false,
+    },
 ] as const;
 
 // ============================================
