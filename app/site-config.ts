@@ -243,6 +243,17 @@ export const CALCULATORS = [
         featured: true,
     },
     {
+        id: "dui-insurance",
+        name: "DUI Insurance Calculator",
+        shortName: "Insurance",
+        description: "See how a DUI affects your car insurance rates",
+        longDescription: "Calculate how much your car insurance will increase after a DUI conviction. See 3-year and 5-year cost projections.",
+        icon: Shield,
+        category: "insurance",
+        keywords: ["DUI insurance", "SR-22", "insurance increase", "high risk insurance", "DUI car insurance"],
+        featured: true,
+    },
+    {
         id: "dui-comparison",
         name: "DUI Laws by State",
         shortName: "Compare States",
