@@ -14,7 +14,7 @@ export const SITE = {
     tagline: "Free DUI Cost Estimator",
     description: "Calculate the true cost of a DUI in your state. Free 2025 DUI cost calculator with fines, lawyer fees, insurance increases, and more.",
     year: 2025,
-    baseUrl: "https://dui-calc.vercel.app",
+    baseUrl: "https://dui.mysmartcalculators.com",
 };
 
 // ============================================
